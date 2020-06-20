@@ -11,14 +11,22 @@ import { Observable } from 'rxjs';
 })
 export class ItemsUIComponent implements OnInit {
 
-  items: Item[];
+  items: any = [];
   service: ItemsService;
+
   constructor(service: ItemsService) {
     this.service = service;
-    this.items = service.getAllItems();
    }
 
-  ngOnInit() {
+  loadItems() {
+    return this.service.getAllItems().subscribe((data: {}) => {
+      this.items = data;
+    });
   }
+
+  ngOnInit() {
+    this.loadItems();
+  }
+
 
 }

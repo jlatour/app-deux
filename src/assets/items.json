@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "toto",
+    "description": "This is a description of toto"
+  },
+  {
+    "id": 2,
+    "name": "titi",
+    "description": "This is a description of titi"
+  },
+  {
+    "id": 3,
+    "name": "tete",
+    "description": "This is a description of tete"
+  },
+  {
+    "id": 4,
+    "name": "rara",
+    "description": "This is a description of rara"
+  },
+  {
+    "id": 5,
+    "name": "roro",
+    "description": "This is a description of roro"
+  },
+  {
+    "id": 6,
+    "name": "fifi",
+    "description": "This is a description of fifi"
+  }
+]
